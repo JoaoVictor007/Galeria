@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilo.css" />
+    <title>Galeria J&F</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <header>
+    <h1>Galeria J&F</h1>
+  </header>
+  <body>
+    <main class="main-wrapper">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-dark"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./Desenhos/Flávia1.jpeg"
+              class="d-block w-380 h-500"
+              alt="cyberfox-girl"
+              width="380"
+              height="500"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cyberfox girl</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Desenhos/Flávia2.jpeg"
+              class="d-block w-380 h-500"
+              alt="aura-operagx"
+              width="380"
+              height="500"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aura (Opera GX)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Desenhos/Flávia3.jpeg"
+              class="d-block w-380 h-500"
+              width="380"
+              height="500"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aura 2.0 (Opera GX)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Desenhos/João1.jpeg"
+              class="d-block w-380 h-500"
+              alt="..."
+              width="380"
+              height="500"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Página de Mangá</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Desenhos/João2.jpeg"
+              class="d-block w-380 h-500"
+              width="380"
+              height="500"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aranha fantansma</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Desenhos/João3.jpeg"
+              class="d-block w-380 h-500"
+              alt="..."
+              width="380"
+              height="500"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Deku</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="slideshow">
+        <a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">
+          <div class="slideshow item">
+            <img src="Desenhos/Flávia1.jpeg" />
+          </div>
+        </a>
+        <a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+          <div class="slideshow item">
+            <img src="Desenhos/Flávia2.jpeg" />
+          </div>
+        </a>
+        <a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+          <div class="slideshow item">
+            <img src="Desenhos/Flávia3.jpeg" />
+          </div>
+        </a>
+        <a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
+          <div class="slideshow item">
+            <img src="Desenhos/João1.jpeg" />
+          </div>
+        </a>
+        <a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">
+          <div class="slideshow item">
+            <img src="Desenhos/João2.jpeg" />
+          </div>
+        </a>
+        <a data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5">
+          <div class="slideshow item">
+            <img src="Desenhos/João3.jpeg" />
+          </div>
+        </a>
+      </div
+    </main>
+  </body>
+</html>
